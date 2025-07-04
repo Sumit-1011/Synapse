@@ -39,16 +39,23 @@ A collaborative task management tool built with the **MERN stack** (MongoDB, Exp
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+``` 
+Then in your repo go in the client dir
 
+```bash
 cd client
 npm install
 npm run dev
+```
 
-Your React frontend will be running at http://localhost:5173/
+Your React frontend will be running at http://localhost:5173/, go in the server dir
 
+```bash
 cd server
 npm install
 npm run dev
+```
+then add the data of the env file in here
 
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
