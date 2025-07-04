@@ -167,6 +167,7 @@ const Dashboard = () => {
                 });
                 // Add the updated task to the correct column
                 newBoard[updatedTask.status].tasks.push(updatedTask);
+                toast.success("Task updated successfully!");
                 return newBoard;
             });
         } catch (error) {
