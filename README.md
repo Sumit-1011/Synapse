@@ -56,7 +56,8 @@ npm install
 npm run dev
 ```
 then add the data of the env file in here
-
+```bash
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
+```
